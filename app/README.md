@@ -1,27 +1,41 @@
-# App
+# admin-read.sonnm.com
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+## Development & Deployment
 
-## Development server
+```sh
+# create .env from .env.sample
+cp .env.sample .env
+# replace with your env variables and run config
+./config.js
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Modules
 
-## Code scaffolding
+1. Auth
+2. Manage Users
+3. Manage Categories/Tags
+4. Manage Videos
+5. Manage Books
+6. Manage Articles
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Application Architecture
 
-## Build
+1. layouts
+2. modules: shared
+3. pages
+4. services
+5. datasources
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Pages
 
-## Running unit tests
+1. Auth
+2. User
+3. Category
+4. Tag
+5. Video
+6. Book
+7. Article
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Materials
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Material UI](https://material.angular.io/)
